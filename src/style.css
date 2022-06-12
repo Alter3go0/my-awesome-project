@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+}
+
+.container-lg {
+  background-color: #66a8dc;
+  width: 630px;
+  padding: 20px;
+  margin-top: 15px;
+  text-align: center;
+}
+.row {
+  margin: 5px;
+  padding-top: -30px;
+  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+h1 {
+  font-size: x-large;
+}
+#number {
+  font-size: 70px;
+}
+#descrip {
+  text-align: left;
+  font-size: medium;
+  padding: 10px;
+  list-style-type: none;
+}
+#humid {
+  text-align: left;
+  font-size: medium;
+  padding: 10px;
+  list-style-type: none;
+}
+#wind {
+  text-align: left;
+  font-size: medium;
+  padding: 10px;
+  list-style-type: none;
+}
+h3 {
+  font-size: x-large;
+}
+p {
+  margin: -3px;
+}
+.card-body {
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.card {
+  --bs-card-spacer-y: 2rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 1.5rem;
+  --bs-card-border-width: 3px;
+}
+img {
+  display: block;
+  margin-top: -100px;
+  margin-bottom: 130px;
+  margin-left: -150px;
+  margin-right: 0px;
+}
+.switch {
+  display: block;
+  color: blueviolet;
+  font-weight: bold;
+  margin-top: -205px;
+  margin-bottom: 0px;
+  margin-left: -213px;
+  margin-right: -510px;
+  padding: 10px;
+}
