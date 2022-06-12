@@ -29,6 +29,7 @@ function getWeatherInfo(response) {
   humidity.innerHTML = `Humidity: ${response.data.main.humidity}%`;
 
   let wind = document.querySelector("li#wind");
+  Math.round(response.data.wind.speed * 3.6);
   wind.innerHTML = `Wind: ${response.data.wind.speed} km/h`;
 }
 //City Search & Temp
