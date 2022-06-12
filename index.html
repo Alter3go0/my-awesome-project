@@ -1,18 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <title>Week Six Homework</title>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Welcome to My Awesome Project</h1>
-    <img
-      src="https://inteng-storage.s3.amazonaws.com/img/iea/yrwQvLJbON/sizes/programmer-memes_resize_md.jpg"
-      alt="funny meme about coding"
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
     />
-    <script src="script.js"></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container-lg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4" device-width><h1>Tipperary</h1></div>
+          <div class="col-md-4 offset-md-4"><h3>Sat 14 | 21:00</h3></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-4">
+          <br />
+          <p class="temperature">
+            <span id="number">10</span
+            ><span class="units"
+            ><a href="#" id="unitCelsius">°C </a>|<a href="#" id="unitFahrenheit">°F</a>
+            </span>
+          </p>
+          <br />
+          <img
+          src="images/cloudy.png"
+          width="180px"
+          alt="Cloudy icon"
+          class="icon"
+        />
+        <div class="col-md-3 offset-md-3">
+          <a href="tbc" class="switch" target="_blank"
+            >tbc</a>
+        </div>
+      </div>
+      <td class="info">
+        <ul>
+          <li id="descrip">It's...</li>
+          <li id="humid">Humidity: <strong>82%</strong></li>
+          <li id="wind">Wind: <strong>8 km/h</strong></li>
+        </ul>
+
+          <form id="city-search">
+            <input type="text" placeholder="Change city" id="search-text-input" />
+            <input type="submit" placeholder="Search" id="submit-btn" />
+            <input type="button" value="Current location" id="current-btn" />
+          </form>
+
+          <br />
+          <br />
+
+          <div class="card text-center" style="width: 7rem;">
+            <div class="card-body">
+              <h5 class="card-title">Mon</h5>
+              <p class="card-text">(icon)</p>
+              <a href="#" class="btn btn-primary">?°C/F</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 7rem;">
+            <div class="card-body">
+              <h5 class="card-title">Tue</h5>
+              <p class="card-text">(icon)</p>
+              <a href="#" class="btn btn-primary">?°C/F</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 7rem;">
+            <div class="card-body">
+              <h5 class="card-title">Wed</h5>
+              <p class="card-text">(icon)</p>
+              <a href="#" class="btn btn-primary">?°C/F</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 7rem;">
+            <div class="card-body">
+              <h5 class="card-title">Thu</h5>
+              <p class="card-text">(icon)</p>
+              <a href="#" class="btn btn-primary">?°C/F</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 7rem;">
+            <div class="card-body">
+              <h5 class="card-title">Fri</h5>
+              <p class="card-text">(icon)</p>
+              <a href="#" class="btn btn-primary">?°C/F</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
