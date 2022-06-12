@@ -3,7 +3,7 @@ body {
 }
 .container-lg {
   background-color: #66a8dc;
-  width: 630px;
+  width: 640px;
   padding: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -12,7 +12,7 @@ body {
 .row {
   margin: 5px;
   padding-top: -30px;
-  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
 h1 {
@@ -41,7 +41,8 @@ h2 {
 }
 #number {
   color: #0f0f0f;
-  font-size: 70px;
+  font-size: 65px;
+  margin: 5px;
 }
 #descrip {
   color: #0f0f0f;
@@ -50,7 +51,7 @@ h2 {
   font-weight: bold;
   padding: 10px;
   list-style-type: none;
-  margin-top: 0;
+  margin-top: -120px;
 }
 #humid {
   color: #0f0f0f;
@@ -80,8 +81,16 @@ img {
   display: block;
   margin-top: -100px;
   margin-bottom: -20px;
-  margin-left: -180px;
+  margin-left: -210px;
   margin-right: 0px;
+}
+img.pudge {
+  display: inline-block;
+  margin-top: -120px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -180px;
+  border-radius: 80px;
 }
 .card-body {
   display: inline-block;
