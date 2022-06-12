@@ -1,12 +1,12 @@
 body {
   font-family: sans-serif;
 }
-
 .container-lg {
   background-color: #66a8dc;
   width: 630px;
   padding: 20px;
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
 }
 .row {
@@ -16,52 +16,86 @@ body {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
 h1 {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: bold;
   font-size: x-large;
+  line-height: 20px;
+  margin-bottom: -0.5rem;
+}
+h2 {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: x-large;
+  line-height: 20px;
+  margin-bottom: -0.5rem;
 }
 #number {
+  color: #0f0f0f;
   font-size: 70px;
 }
 #descrip {
+  color: #0f0f0f;
   text-align: left;
   font-size: medium;
+  font-weight: bold;
   padding: 10px;
   list-style-type: none;
+  margin-top: 0;
 }
 #humid {
+  color: #0f0f0f;
   text-align: left;
   font-size: medium;
+  font-weight: bold;
   padding: 10px;
   list-style-type: none;
 }
 #wind {
+  color: #0f0f0f;
   text-align: left;
   font-size: medium;
+  font-weight: bold;
   padding: 10px;
   list-style-type: none;
 }
 h3 {
-  font-size: x-large;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
 }
 p {
-  margin: -3px;
+  margin: -5px;
+}
+img {
+  display: block;
+  margin-top: -100px;
+  margin-bottom: -20px;
+  margin-left: -180px;
+  margin-right: 0px;
 }
 .card-body {
   display: inline-block;
   margin-left: 0px;
   margin-right: 0px;
 }
+.card-text {
+  margin: 5px;
+}
 .card {
-  --bs-card-spacer-y: 2rem;
+  --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
   --bs-card-title-spacer-y: 1.5rem;
   --bs-card-border-width: 3px;
-}
-img {
-  display: block;
-  margin-top: -100px;
-  margin-bottom: 130px;
-  margin-left: -150px;
-  margin-right: 0px;
 }
 .switch {
   display: block;
@@ -72,4 +106,31 @@ img {
   margin-left: -213px;
   margin-right: -510px;
   padding: 10px;
+}
+.btn-primary {
+  margin: 0px;
+  padding: 10px;
+}
+h4 {
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+h5 {
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
 }

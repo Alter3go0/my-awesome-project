@@ -1,6 +1,6 @@
 //Display current day & time
 let rightNow = new Date();
-let h3 = document.querySelector("h3");
+let h2 = document.querySelector("h2");
 let hour = rightNow.getHours();
 let minutes = rightNow.getMinutes();
 let days = [
@@ -13,7 +13,7 @@ let days = [
   "Saturday",
 ];
 let day = days[rightNow.getDay()];
-h3.innerHTML = `${day} ${hour}:${minutes}`;
+h2.innerHTML = `${day} ${hour}:${minutes}`;
 
 function getWeatherInfo(response) {
   console.log(response.data);
