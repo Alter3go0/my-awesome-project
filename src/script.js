@@ -1,6 +1,6 @@
 //Display current day & time
 let rightNow = new Date();
-let h2 = document.querySelector("h2");
+let h3 = document.querySelector("h3");
 let hour = rightNow.getHours();
 let minutes = rightNow.getMinutes();
 let days = [
@@ -13,7 +13,7 @@ let days = [
   "Saturday",
 ];
 let day = days[rightNow.getDay()];
-h2.innerHTML = `${day} ${hour}:${minutes}`;
+h3.innerHTML = `${day} ${hour}:${minutes}`;
 
 function getWeatherInfo(response) {
   console.log(response.data);
@@ -29,7 +29,6 @@ function getWeatherInfo(response) {
   humidity.innerHTML = `Humidity: ${response.data.main.humidity}%`;
 
   let wind = document.querySelector("li#wind");
-  Math.round(response.data.wind.speed * 3.6);
   wind.innerHTML = `Wind: ${response.data.wind.speed} km/h`;
 }
 //City Search & Temp

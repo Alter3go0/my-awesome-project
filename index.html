@@ -14,47 +14,45 @@
     />
     <link href="src/style.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
     <div class="container-lg">
       <div class="container">
         <div class="row">
-          <div class="col-md-4" device-width><h1>Check the Weather</h1></div>
-          <div class="col-md-4 offset-md-4"><h2>Day | Time</h2></div>
+          <div class="col-md-4" device-width><h1>Tipperary</h1></div>
+          <div class="col-md-4 offset-md-4"><h3>Sat 14 | 21:00</h3></div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-3 offset-md-4">
           <br />
           <p class="temperature">
-            <span id="number"></span
+            <span id="number">10</span
             ><span class="units"
             ><a href="#" id="unitCelsius">°C </a>|<a href="#" id="unitFahrenheit">°F</a>
             </span>
           </p>
           <br />
-          <img class = "icon"
+          <img
           src="images/cloudy.png"
           width="180px"
           alt="Cloudy icon"
           class="icon"
         />
-        <br>
-          <img class = "pudge"
-          src="images/pudge.jpg"
-          width="380px"
-          alt="Pudge controls the weather"
-          class="icon"
-        />
+        <div class="col-md-3 offset-md-3">
+          <a href="tbc" class="switch" target="_blank"
+            >tbc</a>
+        </div>
       </div>
       <td class="info">
         <ul>
-          <li id="descrip"></li>
-          <li id="humid"><strong></strong></li>
-          <li id="wind"><strong></strong></li>
+          <li id="descrip">It's...</li>
+          <li id="humid">Humidity: <strong>82%</strong></li>
+          <li id="wind">Wind: <strong>8 km/h</strong></li>
         </ul>
 
           <form id="city-search">
-            <input type="text" placeholder="Enter a city" id="search-text-input" />
+            <input type="text" placeholder="Change city" id="search-text-input" />
             <input type="submit" placeholder="Search" id="submit-btn" />
             <input type="button" value="Current location" id="current-btn" />
           </form>
@@ -62,52 +60,48 @@
           <br />
           <br />
 
-           <div class="card text-center" style="width: 7rem;">
+          <div class="card text-center" style="width: 7rem;">
             <div class="card-body">
-              <h3 class="card-title">Mon</h3>
+              <h5 class="card-title">Mon</h5>
               <p class="card-text">(icon)</p>
-              <a href="#" class="btn btn-primary">°C/F</a>
+              <a href="#" class="btn btn-primary">?°C/F</a>
             </div>
           </div>
 
           <div class="card text-center" style="width: 7rem;">
             <div class="card-body">
-              <h3 class="card-title">Tue</h3>
+              <h5 class="card-title">Tue</h5>
               <p class="card-text">(icon)</p>
-              <a href="#" class="btn btn-primary">°C/F</a>
+              <a href="#" class="btn btn-primary">?°C/F</a>
             </div>
           </div>
 
           <div class="card text-center" style="width: 7rem;">
             <div class="card-body">
-              <h3 class="card-title">Wed</h3>
+              <h5 class="card-title">Wed</h5>
               <p class="card-text">(icon)</p>
-              <a href="#" class="btn btn-primary">°C/F</a>
+              <a href="#" class="btn btn-primary">?°C/F</a>
             </div>
           </div>
 
           <div class="card text-center" style="width: 7rem;">
             <div class="card-body">
-              <h3 class="card-title">Thu</h3>
+              <h5 class="card-title">Thu</h5>
               <p class="card-text">(icon)</p>
-              <a href="#" class="btn btn-primary">°C/F</a>
+              <a href="#" class="btn btn-primary">?°C/F</a>
             </div>
           </div>
 
           <div class="card text-center" style="width: 7rem;">
             <div class="card-body">
-              <h3 class="card-title">Fri</h3>
+              <h5 class="card-title">Fri</h5>
               <p class="card-text">(icon)</p>
-              <a href="#" class="btn btn-primary">°C/F</a>
+              <a href="#" class="btn btn-primary">?°C/F</a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <script src="src/script.js"></script>
-    <footer>
-      <h4><a href="https://github.com/Alter3go0/my-awesome-project" class="open-source" target="_blank">Open-source code</a></h4> 
-      <h5>by Amber Cunningham</h5>
-    </footer>
   </body>
 </html>
