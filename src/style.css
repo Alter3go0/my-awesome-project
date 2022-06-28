@@ -85,18 +85,27 @@ input.btn.btn-primary:hover {
 }
 .weather-forecast {
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
   color: #000;
 }
 .weather-forecast-day {
   font-size: 16px;
   opacity: 0.7;
+  text-align: center;
 }
 .weather-forecast-temperature-max {
   font-size: 13px;
   opacity: 0.8;
+  text-align: center;
 }
 .weather-forecast-temperature-min {
   font-size: 13px;
   opacity: 0.8;
+  text-align: center;
+}
+.box {
+  border: 1px solid #dadde1;
+  padding: 5px;
+  width: 55px;
 }
