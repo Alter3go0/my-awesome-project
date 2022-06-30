@@ -77,11 +77,16 @@ input.btn.btn-primary:hover {
   text-decoration: none;
 }
 #pudge {
-  max-width: 600px;
+  display: block;
+  max-width: 330px;
   margin: 0 auto;
   margin-top: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  margin-left: 225px;
+  margin-right: 0px;
+  margin-top: -253px;
+  margin-bottom: 65px;
 }
 .weather {
   display: inline-block;
